@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background: rgb(196, 133, 255);
+            color: beige;
+            font: normal 18pt Arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg"> Clique em mim</div>
+    <script>
+
+        window.document.write(window.document.location + '</br>')//Modelo de DOM;
+        //Metodos de Acesso:
+        var p1 = window.document.getElementsByTagName('p1')[1]//Pegará o primeiro parágrafo por marca na posição selecionada nos [];
+        window.document.write('Está escrito assim'+ p1.innerHTML + '</br')
+        p1.style.color = 'purple'
+        corpo.style.background = 'white'
+
+        /*DOM: Document Object Model, Conjunto de objetos dentro do navegador que dara acesso aos elementos internos do JS,
+Árvore DOM: window---> *location, *document(HTML (HEAD)&&(Body)), *history;
+Eventos DOM: 
+*/
+
+    </script>
+</body>
+</html>
