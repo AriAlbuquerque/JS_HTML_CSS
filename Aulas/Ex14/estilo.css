@@ -1,11 +1,11 @@
 body{
-    
+    background: rgb(240, 98, 183);
     font: normal 15pt Arial;
 
 }
 
 header{
-    color: rgb(233, 233, 79);
+    color: beige;
     text-align: center;
 
 }
@@ -18,10 +18,6 @@ section{
     margin:auto;
     box-shadow: 5px 5px 10px rgba(9, 9, 9, 0.462);
 
-}
-div{
-    text-align: center;
-    padding: 8px;
 }
 
 footer{
