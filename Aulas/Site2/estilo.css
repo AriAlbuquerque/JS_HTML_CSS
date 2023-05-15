@@ -1,17 +1,17 @@
 body{
-    
+    background: rgb(70, 142, 236);
     font: normal 15pt Arial;
 
 }
 
 header{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
 
 }
 
 section{
-    background: rgb(255, 197, 245);
+    background: rgb(233, 218, 231);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
@@ -19,14 +19,14 @@ section{
     box-shadow: 5px 5px 10px rgba(9, 9, 9, 0.462);
 
 }
-div{
-    text-align: center;
-    padding: 8px;
-}
 
 footer{
-    color: aliceblue;
+    color: rgb(244, 246, 248);
     text-align: center;
     font-style: italic;
 
+}
+
+button{
+    text-align: center;
 }

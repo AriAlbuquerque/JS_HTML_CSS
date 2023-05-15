@@ -1,21 +1,23 @@
+
 function verificar(){
+   
     var data = new Date()
     var ano = data.getFullYear()
     var fano = document.getElementById('txtano')
-    var res = document.querySelector('div#res')
+    var res = document.getElementById('res')
 
-    if(fano.value.length == 0 || fano.value > ano){
+    if(fano.value.length == 0 || Number(fano.value) > ano){   //Verifica se o valor digitado  é igual a zero  OU se valor digiyado é > que ano atual;
         window.alert('[ERRO] Verifique os dados e tente novamente!')
     }else{
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
+        //res.innerHTML = `Idade calculada ${idade}`
         var genero = ''
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
 
         if(fsex[0].checked) {
             genero = 'Homem'
-           
             if(idade >= 0 && idade < 10){
                 //Criança
                 img.setAttribute('src', 'crianca-menino.png')
@@ -49,9 +51,9 @@ function verificar(){
                 img.setAttribute('scr', 'mulher-idosa.png')
             }
         }
-        res.style.textAling = 'center'
+        res.style.textAlign = 'center'
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
         res.appendChild(img)
     }
- }
+}
     
