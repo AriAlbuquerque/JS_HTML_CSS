@@ -1,11 +1,11 @@
 body{
-    background: rgba(132, 43, 147, 0.737);
+    background: rgb(117, 98, 164);
     font: normal 15pt Arial;
 
 }
 
 header{
-    color: rgb(130, 107, 153);
+    color: beige;
     text-align: center;
 
 }
@@ -19,9 +19,9 @@ section{
     box-shadow: 5px 5px 10px rgba(9, 9, 9, 0.462);
 
 }
-
-    
-
+select#flista{
+    width: 150px;
+}
 
 footer{
     color: aliceblue;
