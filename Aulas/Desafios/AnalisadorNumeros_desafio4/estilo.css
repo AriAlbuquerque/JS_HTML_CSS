@@ -19,9 +19,6 @@ section{
     box-shadow: 5px 5px 10px rgba(9, 9, 9, 0.462);
 
 }
-select#flista{
-    width: 150px;
-}
 
 footer{
     color: aliceblue;
