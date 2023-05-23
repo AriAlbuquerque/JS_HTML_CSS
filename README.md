@@ -1,1 +1,1 @@
-<h2> Curso do Guanabara(Curso em vídeo) de JS e HTML/CSS</h2>
+<p>Exercicios do Curso em Vídeo do Gustavo Guanabara</p<
